@@ -1,0 +1,10 @@
+.nav-bar {
+    background-color: red;
+
+}
+
+@media(min-width: 600px) {
+    .nav-bar {
+        background-color: blue;
+    }
+}

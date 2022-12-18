@@ -1,10 +1,14 @@
-import React from 'react'
+import { FC } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
-function App() {
+const App: FC = () => {
   return (
-    <div className="App">
-      <h1>Stan App</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path={'/'} element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
