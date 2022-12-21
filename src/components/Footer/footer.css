@@ -1,0 +1,125 @@
+/*Mobile first approach*/
+.footer {
+    background-color: #1E1E1E;
+    color: #BFB9C0;
+    font-size: 12px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    margin: 0 10px;
+    display: none;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.facebook-logo {
+    width: 10px;
+}
+
+.twitter-logo {
+    width: 25px;
+}
+
+.instagram-logo {
+    width: 20px;
+}
+
+.spacing {
+    margin: 0 10px;
+}
+
+.store {
+    display: flex;
+    margin-top: 20px;
+}
+
+.app-store-logo {
+    width: 90px;
+}
+
+.google-play-logo {
+    width: 90px;
+}
+
+.windows-store-logo {
+    width: 70px;
+
+}
+
+@media(min-width: 600px) {
+    .footer {
+        padding: 30px 80px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+
+    .divider {
+        display: inline-block;
+    }
+
+    .social {
+        flex-direction: row;
+    }
+
+    .social-media {
+        justify-content: left;
+    }
+
+    .facebook-logo {
+        width: 15px;
+    }
+
+    .twitter-logo {
+        width: 30px;
+    }
+
+    .instagram-logo {
+        width: 25px;
+    }
+
+    .store {
+        margin-top: 0;
+    }
+
+    .app-store-logo {
+        width: 130px;
+    }
+
+    .google-play-logo {
+        width: 130px;
+    }
+
+    .windows-store-logo {
+        width: 110px;
+    }
+}
