@@ -1,10 +1,47 @@
-.nav-bar {
-    background-color: red;
+.container {
+    display: flex;
+    background: #2E7AF6;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+}
 
+.title {
+    flex-grow: 1;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.link-container {
+    width: 350px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.trial-btn {
+    background-color: #3C3C3C;
+    padding: 5px 15px;
+}
+
+.log-in-txt {
+    margin-right: 15px;
 }
 
 @media(min-width: 600px) {
-    .nav-bar {
-        background-color: blue;
+    .container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .title {
+        padding-left: 70px;
+        width: 0;
+    }
+
+    .link-container {
+        margin-top: 0;
     }
 }
