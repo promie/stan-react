@@ -1,4 +1,5 @@
-.container {
+/*Mobile first approach*/
+.nav-bar {
     display: flex;
     background: #2E7AF6;
     padding: 10px;
@@ -24,14 +25,16 @@
 .trial-btn {
     background-color: #3C3C3C;
     padding: 5px 15px;
+    cursor: pointer;
 }
 
 .log-in-txt {
     margin-right: 15px;
+    cursor: pointer;
 }
 
 @media(min-width: 600px) {
-    .container {
+    .nav-bar {
         flex-direction: row;
         text-align: left;
     }

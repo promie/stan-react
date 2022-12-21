@@ -1,7 +1,12 @@
 import { FC } from 'react'
+import './subtitle.css'
 
 const Subtitle: FC = () => {
-  return <h1>Subtitle section</h1>
+  return (
+    <div className="subtitle">
+      <p className="popular-titles">Popular Titles</p>
+    </div>
+  )
 }
 
 export default Subtitle

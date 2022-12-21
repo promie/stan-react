@@ -1,0 +1,19 @@
+/*Mobile first approach*/
+.subtitle {
+    background-color: #3C3C3C;
+    padding: 12px;
+}
+
+.popular-titles {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media(min-width: 600px) {
+    .popular-titles {
+        padding-left: 69px;
+        text-align: left;
+    }
+}

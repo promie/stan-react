@@ -1,11 +1,13 @@
 import { FC } from 'react'
 import Navbar from '../../components/Navbar'
+import Subtitle from '../../components/Subtitle'
 
 const Home: FC = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <Subtitle />
+    </>
   )
 }
 
