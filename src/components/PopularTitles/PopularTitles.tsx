@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Link } from 'react-router-dom'
 import './populartitles.css'
 import PlaceHolder from '../../assets/placeholder.png'
 
@@ -6,26 +7,26 @@ const PopularTitles: FC = () => {
   return (
     <div className="pop-titles">
       <div className="series">
-        <div className="image-container">
+        <Link to={'/series'} className="image-container">
           <img
             src={PlaceHolder}
             alt="popular series"
             className="placeholder-img"
           />
           <div className="image-overlay">SERIES</div>
-        </div>
+        </Link>
         <p>Popular Series</p>
       </div>
 
       <div>
-        <div className="image-container">
+        <Link to={'/movies'} className="image-container">
           <img
             src={PlaceHolder}
             alt="popular series"
             className="placeholder-img"
           />
           <div className="image-overlay">MOVIES</div>
-        </div>
+        </Link>
         <p>Popular Movies</p>
       </div>
     </div>
