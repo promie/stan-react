@@ -1,19 +1,19 @@
 /*Mobile first approach*/
-.series-list {
+.movies-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 15px 0;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     padding-left: 45px;
 }
 
-.poster-container {
+.movie-poster-container {
     margin-bottom: 15px;
 }
 
-.poster {
+.movie-poster {
     width: 200px;
     height: 300px;
     min-width: 200px;
@@ -24,16 +24,15 @@
     margin-right: 25px;
 }
 
-.series-title {
+.movies-title {
     font-size: 12px;
 }
 
 @media(min-width: 600px) {
-    .series-list {
+    .movies-list {
         flex-direction: row;
         width: 1595px;
         margin: 30px 10px;
         padding-left: 69px;
-        text-align: left;
     }
 }

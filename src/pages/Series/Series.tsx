@@ -10,10 +10,10 @@ const Series: FC = () => {
 
   useEffect(() => {
     dispatch(getSeries())
-  }, [])
+  }, [dispatch])
 
   return (
-    <div className="series">
+    <div className="series-list">
       {series?.map((ser: any, idx: number) => (
         <div key={idx} className="poster-container">
           <img
